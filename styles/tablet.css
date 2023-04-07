@@ -1,0 +1,204 @@
+@media (max-width:736px) {
+    
+    .quote1
+    {
+        display: inline-block;
+        height: 70px !important;
+        font-size: 0.8rem;
+    }
+
+    .quote
+    {
+        height: 85% !important;
+    }
+
+    .Box
+    {
+        height: 85% !important;
+    }
+
+    .tertiary
+    {
+        font-size: 0.9rem;
+    }
+}
+
+@media ((max-width:685px) and (min-width:370px)){
+
+    #home
+    {
+        height: 650px !important;
+    }
+
+    #home::before
+    {
+        height: 650px !important;
+    }
+
+    .container::before
+    {
+        visibility: hidden;
+    }
+    .work
+    {
+        width: 150px !important;
+        height: 150px !important;
+        margin: 9px !important;
+    }
+
+    .cover
+    {
+        width: 150px !important;
+        height: 150px !important;
+    }
+
+    .work img
+    {
+        width: 150px !important;
+        height: 150px !important;
+    }
+
+    .logo
+    {
+        position: relative !important;
+        top: -15% !important;
+        left: -2% !important;
+    }
+
+    .container img
+    {
+        width: 350px !important;
+    }
+    nav
+    {
+       flex-direction: column;
+       height: 100px !important;
+       font-size: 0.8rem;
+    }
+
+    nav::before
+    {
+        height: 100px !important;
+    }
+
+    nav ul li {
+        margin: 0px 10px !important;
+    }
+
+    #Education,#skills,#Works,#Contact
+     {
+        font-size: 0.8rem;
+     }
+
+     .Box
+     {
+        height: 85% !important;
+     }
+
+     #skills,#Education
+     {
+        height: 565px !important;
+     }
+
+     footer
+     {
+        font-size: 0.6rem;
+     }
+}
+
+@media (max-width:370px){
+    #home
+    {
+        height: 650px !important;
+    }
+
+    #home::before
+    {
+        height: 650px !important;
+    }
+
+    .container::before
+    {
+        visibility: hidden;
+    }
+    .work
+    {
+        width: 200px !important;
+        height: 200px !important;
+        margin: 9px !important;
+    }
+
+    .cover
+    {
+        width: 200px !important;
+        height: 200px !important;
+    }
+
+    .work img
+    {
+        width: 200px !important;
+        height: 200px !important;
+    }
+
+    .logo
+    {
+        position: relative !important;
+        top: -15% !important;
+        left: -2% !important;
+    }
+
+    .container img,.container
+    {
+        width: 0px !important;
+    }
+    nav
+    {
+       flex-direction: column;
+       height: 100px !important;
+       font-size: 0.6rem;
+    }
+
+    nav::before
+    {
+        height: 100px !important;
+    }
+
+    nav ul li {
+        margin: 0px 5px !important;
+    }
+
+    #Education,#skills,#Works,#Contact
+     {
+        font-size: 0.8rem;
+     }
+
+     .skills
+     {
+        flex-direction: column;
+     }
+
+     .quote
+     {
+        visibility: hidden;
+     }
+     .content
+     {
+        width: 100% !important;
+     }
+
+     .Box
+     {
+        width: 100% !important;
+        height: 85% !important;
+     }
+
+     #skills,#Education
+     {
+        height: 565px !important;
+     }
+
+     footer
+     {
+        font-size: 0.6rem;
+     }
+}
