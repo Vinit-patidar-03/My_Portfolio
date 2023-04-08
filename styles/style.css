@@ -33,6 +33,7 @@ nav {
     display: flex;
     align-items: center;
     justify-content: center;
+    z-index:1;
 }
 
 nav::before {
@@ -41,6 +42,7 @@ nav::before {
     width: 100%;
     height: 50px;
     background-color: black;
+    opacity:0.3;
     z-index: -1;
 }
 
