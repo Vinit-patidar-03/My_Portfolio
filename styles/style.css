@@ -117,6 +117,7 @@ nav ul li a {
 
 .container img {
     width: 500px;
+    animation: name 3s ease-in-out 0s infinite;
 }
 
 .container::before
@@ -125,9 +126,23 @@ nav ul li a {
     position: absolute;
     width: 500px;
     height: 500px;
-    top: 20%;
-    background: url('../images/Color.png') no-repeat center/cover;
+    top: 35%;
+    background: url('../images/color.png') no-repeat center/cover;
+    animation: name 3s ease-in-out 0s infinite;
     z-index: -1;
+}
+
+@keyframes name {
+
+    0%,
+    100% {
+         transform: translateY(0px);
+    }
+
+    50% {
+        transform: translateY(10px);
+    }
+
 }
 
 .content p
@@ -147,30 +162,9 @@ nav ul li a {
 .name {
     font-size: larger;
     font-family: 'Roboto', sans-serif;
-    /* animation: name 4s ease-in-out 0s infinite; */
     color: #ffbf00;
     text-shadow: 1px 1px #FF6000;
 }
-
-/* @keyframes name {
-
-    0%,
-    100% {
-        color: #245953;
-    }
-
-    25% {
-        color: #560259;
-    }
-
-    50% {
-        color: #ff00e1;
-    }
-
-    75% {
-        color: #5100ff;
-    }
-} */
 
 .btn {
     padding: 10px;
@@ -249,7 +243,7 @@ nav ul li a {
     color: #FF6000;
     transform-origin: left;
     transform: scaleX(0);
-    animation: animate 3s ease-in-out 1 forwards;
+    animation: animate 2s ease-in-out 1 forwards;
 }
 
 @keyframes animate {
