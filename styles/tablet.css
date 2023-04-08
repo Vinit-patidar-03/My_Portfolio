@@ -37,7 +37,9 @@
 
     .container::before
     {
-        visibility: hidden;
+        width:300px !important;
+        height:350px !important;
+        top:50% !important;
     }
     .work
     {
