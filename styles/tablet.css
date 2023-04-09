@@ -106,22 +106,17 @@
     }
     .work
     {
-        width: 250px !important;
-        height: 250px !important;
+        width: 230px !important;
+        height: 230px !important;
         margin: 9px !important;
     }
 
     .cover
     {
-        width: 250px !important;
-        height: 250px !important;
+        width: 230px !important;
+        height: 230px !important;
     }
 
-    .work img
-    {
-        width: 250px !important;
-        height: 250px !important;
-    }
 
     .logo
     {
