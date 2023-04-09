@@ -25,16 +25,6 @@
 
 @media ((max-width:685px) and (min-width:370px)){
 
-    #home
-    {
-        height: 650px !important;
-    }
-
-    #home::before
-    {
-        height: 650px !important;
-    }
-
     .container::before
     {
         width:300px !important;
