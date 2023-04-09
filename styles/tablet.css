@@ -98,16 +98,7 @@
      }
 }
 
-@media (max-width:370px){
-    #home
-    {
-        height: 650px !important;
-    }
-
-    #home::before
-    {
-        height: 650px !important;
-    }
+@media (max-width:370px){
 
     .container::before
     {
@@ -115,21 +106,21 @@
     }
     .work
     {
-        width: 200px !important;
-        height: 200px !important;
+        width: 250px !important;
+        height: 250px !important;
         margin: 9px !important;
     }
 
     .cover
     {
-        width: 200px !important;
-        height: 200px !important;
+        width: 250px !important;
+        height: 250px !important;
     }
 
     .work img
     {
-        width: 200px !important;
-        height: 200px !important;
+        width: 250px !important;
+        height: 250px !important;
     }
 
     .logo
