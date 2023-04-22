@@ -98,7 +98,8 @@
      }
 }
 
-@media (max-width:370px){
+@media (max-width:370px){
+
 
     .container::before
     {
@@ -106,8 +107,8 @@
     }
     .work
     {
-        width: 230px !important;
-        height: 230px !important;
+        width: 100px !important;
+        height: 100px !important;
         margin: 9px !important;
     }
 
