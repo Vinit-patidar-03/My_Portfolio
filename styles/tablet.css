@@ -163,6 +163,7 @@
      .content
      {
         width: 100% !important;
+         animation: name 3s ease-in-out 0s infinite;
      }
 
      .Box
