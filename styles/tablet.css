@@ -1,75 +1,65 @@
 @media (max-width:736px) {
-    
-    .quote1
-    {
+
+    .quote1 {
         display: inline-block;
         height: 70px !important;
         font-size: 0.8rem;
     }
 
-    .quote
-    {
+    .quote {
         height: 85% !important;
     }
 
-    .Box
-    {
+    .Box {
         height: 85% !important;
     }
 
-    .tertiary
-    {
+    .tertiary {
         font-size: 0.9rem;
     }
 }
 
-@media ((max-width:685px) and (min-width:370px)){
+@media ((max-width:685px) and (min-width:370px)) {
 
-    .container::before
-    {
-        width:300px !important;
-        height:350px !important;
-        top:50% !important;
+    .container::before {
+        width: 300px !important;
+        height: 350px !important;
+        top: 50% !important;
     }
-    .work
-    {
+
+    .work {
         width: 150px !important;
         height: 150px !important;
         margin: 9px !important;
     }
 
-    .cover
-    {
+    .cover {
         width: 150px !important;
         height: 150px !important;
     }
 
-    .work img
-    {
+    .work img {
         width: 150px !important;
         height: 150px !important;
     }
 
-    .logo
-    {
+    .logo {
         position: relative !important;
         top: -15% !important;
         left: -2% !important;
     }
 
-    .container img
-    {
+    .container img {
         width: 350px !important;
     }
-    nav
-    {
-       flex-direction: column;
-       height: 100px !important;
-       font-size: 0.8rem;
+
+    nav {
+        flex-direction: column;
+        height: 100px !important;
+        font-size: 0.8rem;
     }
 
-    nav::before
-    {
+    nav::before {
         height: 100px !important;
     }
 
@@ -77,73 +67,84 @@
         margin: 0px 10px !important;
     }
 
-    #Education,#skills,#Works,#Contact
-     {
+    #Education,
+    #skills,
+    #Works,
+    #Contact {
         font-size: 0.8rem;
-     }
+    }
 
-     .Box
-     {
+    .Box {
         height: 85% !important;
-     }
+    }
 
-     #skills,#Education
+    /* #skills,#Education
      {
         height: 565px !important;
-     }
+     } */
 
-     footer
-     {
+    footer {
         font-size: 0.6rem;
-     }
+    }
 }
 
-@media (max-width:370px){
+@media (max-width:370px) {
 
-
-    .container::before
-    {
-        visibility: hidden;
+    .container::before {
+        width: 260px !important;
+        height: 290px !important;
     }
-    .work
+
+    /* .work
     {
-        width: 100px !important;
-        height: 100px !important;
+        width: 200px !important;
+        height: 200px !important;
         margin: 9px !important;
     }
 
     .cover
     {
-        width: 100px !important;
-        height: 100px !important;
-    }
-    
-    .cover a
-    {
-        font-size:0.8rem;
+        width: 200px !important;
+        height: 200px !important;
     }
 
-
-    .logo
+    .work img
     {
+        width: 200px !important;
+        height: 200px !important;
+    } */
+
+    .logo {
         position: relative !important;
         top: -15% !important;
         left: -2% !important;
     }
 
-    .container img,.container
-    {
-        width: 0px !important;
-    }
-    nav
-    {
-       flex-direction: column;
-       height: 100px !important;
-       font-size: 0.6rem;
+    .home {
+        flex-direction: column;
     }
 
-    nav::before
-    {
+    .container {
+        margin-top: 70px;
+        width: 100% !important;
+    }
+
+    .container img {
+        width: 75% !important;
+    }
+
+    nav {
+        flex-direction: column;
+        height: 100px !important;
+        font-size: 0.6rem;
+    }
+
+    .name {
+        color: #070A52 !important;
+        text-shadow:  1px 1px aqua !important;
+    }
+
+    nav::before {
         height: 100px !important;
     }
 
@@ -151,39 +152,38 @@
         margin: 0px 5px !important;
     }
 
-    #Education,#skills,#Works,#Contact
-     {
+    #Education,
+    #skills,
+    #Works,
+    #Contact {
         font-size: 0.8rem;
-     }
+    }
 
-     .skills
-     {
+    .skills {
         flex-direction: column;
-     }
+    }
 
-     .quote
-     {
+    .quote {
         visibility: hidden;
-     }
-     .content
-     {
-        width: 100% !important;
-         animation: name 3s ease-in-out 0s infinite;
-     }
+    }
 
-     .Box
-     {
+    .content {
+        width: 100% !important;
+        margin-top: 50px;
+        /* animation: name 3s ease-in-out 0s infinite; */
+    }
+
+    .Box {
         width: 100% !important;
         height: 85% !important;
-     }
+    }
 
-     #skills,#Education
+    /* #skills,#Education
      {
         height: 565px !important;
-     }
+     } */
 
-     footer
-     {
+    footer {
         font-size: 0.6rem;
-     }
+    }
 }
