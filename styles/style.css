@@ -7,7 +7,7 @@
 }
 
 body {
-    background-color: #332C39;
+    background-color: #040147;
     overflow-x: hidden;
 }
 
@@ -152,12 +152,12 @@ nav ul li a {
     font-weight: bolder;
 }
 
-.content h2 {
-    text-align: center;
+#element {
     color: rgb(0, 255, 0);
     font-weight: bolder;
     text-shadow: 1px 1px #FF6000;
     font-size: x-large;
+    text-align: center;
     font-family: 'Roboto', sans-serif;
 }
 

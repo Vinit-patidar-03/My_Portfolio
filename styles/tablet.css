@@ -19,7 +19,7 @@
     }
 }
 
-@media ((max-width:685px) and (min-width:370px)) {
+@media ((max-width:685px) and (min-width:500px)) {
 
     .container::before {
         width: 300px !important;
@@ -88,7 +88,7 @@
     }
 }
 
-@media (max-width:370px) {
+@media (max-width:500px) {
 
     .container::before {
         width: 260px !important;
@@ -140,8 +140,7 @@
     }
 
     .name {
-        color: #070A52 !important;
-        text-shadow:  1px 1px aqua !important;
+        color: aqua !important;
     }
 
     nav::before {
@@ -167,6 +166,10 @@
         visibility: hidden;
     }
 
+    .contact,.quote1
+    {
+        font-size: 0.5rem;
+    }
     .content {
         width: 100% !important;
         margin-top: 50px;

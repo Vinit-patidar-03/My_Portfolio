@@ -5,220 +5,225 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="./images/logo.jpg" type="image/x-icon">
     <script src="https://kit.fontawesome.com/97c300a5fa.js" crossorigin="anonymous"></script>
+    <link rel="shortcut icon" href="./images/logo.jpg" type="image/x-icon">
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link rel="stylesheet" href="./styles/tablet.css">
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <link rel="stylesheet" href="./styles/style.css">
-    <title>Portfolio 2.O</title>
+    <title>My Portfolio</title>
 </head>
 
 <body>
-    <nav>
-        <div class="logo"><img src="./images/logo.jpg" alt=""></div>
-        <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#skills">Skills</a></li>
-            <li><a href="#Education">Education</a></li>
-            <li><a href="#Works">Works</a></li>
-            <li><a href="#Contact">Contact</a></li>
-        </ul>
-    </nav>
 
-    <section id="home">
-        <div class="home">
-            <div class="container">
-                <img src="./images/portfolio.png" alt="Portfolio" srcset="">
-            </div>
-            <div class="content">
-                <h1>Hello, I'm <span class="name"> Vinit Patidar</span></h1>
-                <h2>Web Developer</h2>
-                <p>I am a second year undergradute student of the department of Agricultural and Food Engineering
-                    enrolled in its dual degree Course at IIT Kharagpur.</p>
-                <a href="./cv/Resume.docx" class="btn" download>Download CV</a>
-            </div>
-        </div>
-    </section>
+    <header>
+        <nav>
+            <div class="logo"><img src="./images/logo.jpg" alt=""></div>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#Education">Education</a></li>
+                <li><a href="#Works">Works</a></li>
+                <li><a href="#Contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
 
-    <section id="skills">
-        <h2 class="secondary">Skills</h2>
-        <div class="skills">
-            <div class="Box" data-aos="fade-up">
-                <div class="box">
-                    <h3 class="tertiary">HTML</h3>
-                    <div class="level">
-                        <div class="lvl" style="--i:80%"><span>80%</span></div>
+    <main>
+        <section id="home">
+            <div class="home">
+                <div class="container">
+                    <img src="./images/portfolio.png" alt="Portfolio" srcset="">
+                </div>
+                <div class="content">
+                    <h1>Hello, I'm <span class="name"> Vinit Patidar</span></h1>
+                   <h1>I am a <span id="element">Web Developer</span></h1> 
+                    <p>I am a second year undergradute student of the department of Agricultural and Food Engineering
+                        enrolled in its dual degree Course at IIT Kharagpur.</p>
+                    <a href="./cv/Resume.docx" class="btn" download>Download CV</a>
+                </div>
+            </div>
+        </section>
+    
+        <section id="skills">
+            <h2 class="secondary">Skills</h2>
+            <div class="skills">
+                <div class="Box"  id='Box' data-aos="fade-up">
+                    <div class="box">
+                        <h3 class="tertiary">HTML</h3>
+                        <div class="level">
+                            <div class="lvl" id="lvl" style="--i:80%"><span>80%</span></div>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <h3 class="tertiary">CSS</h3>
+                        <div class="level">
+                            <div class="lvl" style="--i:75%">75%</div>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <h3 class="tertiary">JavaScript</h3>
+                        <div class="level">
+                            <div class="lvl" style="--i:70%">70%</div>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <h3 class="tertiary">ReactJS</h3>
+                        <div class="level">
+                            <div class="lvl" style="--i:60%">60%</div>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <h3 class="tertiary">Tailwind CSS</h3>
+                        <div class="level">
+                            <div class="lvl" style="--i:65%">65%</div>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <h3 class="tertiary">C</h3>
+                        <div class="level">
+                            <div class="lvl" style="--i:85%">85%</div>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <h3 class="tertiary">C++</h3>
+                        <div class="level">
+                            <div class="lvl" style="--i:80%">80%</div>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <h3 class="tertiary">Python</h3>
+                        <div class="level">
+                            <div class="lvl" style="--i:75%">75%</div>
+                        </div>
                     </div>
                 </div>
-                <div class="box">
-                    <h3 class="tertiary">CSS</h3>
-                    <div class="level">
-                        <div class="lvl" style="--i:75%">75%</div>
+                <div class="quote" data-aos="fade-up">
+                    <h2 class="secondary">Quotes</h2>
+                    <div class="quote1">
+                        <h3>"The future belongs to those who learn more skills and combine them in creative ways."</h3>
+                        <div class="writer">~Robert Greene</div>
                     </div>
-                </div>
-                <div class="box">
-                    <h3 class="tertiary">JavaScript</h3>
-                    <div class="level">
-                        <div class="lvl" style="--i:70%">70%</div>
+                    <div class="quote1">
+                        <h3>"When it comes to mastering any skill, time is major ingredient."</h3>
+                        <div class="writer">~Robert Greene</div>
                     </div>
-                </div>
-                <div class="box">
-                    <h3 class="tertiary">ReactJS</h3>
-                    <div class="level">
-                        <div class="lvl" style="--i:60%">60%</div>
+                    <div class="quote1">
+                        <h3>"It is possible to fly without motors,but not without knowledge and skills."</h3>
+                        <div class="writer">~Wilbur Wup</div>
                     </div>
-                </div>
-                <div class="box">
-                    <h3 class="tertiary">Tailwind CSS</h3>
-                    <div class="level">
-                        <div class="lvl" style="--i:65%">65%</div>
+                    <div class="quote1">
+                        <h3>"Once you stop learning, you start dying"</h3>
+                        <div class="writer">~Albert Einstein</div>
                     </div>
-                </div>
-                <div class="box">
-                    <h3 class="tertiary">C</h3>
-                    <div class="level">
-                        <div class="lvl" style="--i:85%">85%</div>
-                    </div>
-                </div>
-                <div class="box">
-                    <h3 class="tertiary">C++</h3>
-                    <div class="level">
-                        <div class="lvl" style="--i:80%">80%</div>
-                    </div>
-                </div>
-                <div class="box">
-                    <h3 class="tertiary">Python</h3>
-                    <div class="level">
-                        <div class="lvl" style="--i:75%">75%</div>
+                    <div class="quote1">
+                        <h3>"The bridge between my opportunities and my abilities are my skills."</h3>
+                        <div class="writer">~J. Tisa</div>
                     </div>
                 </div>
             </div>
-            <div class="quote" data-aos="fade-up">
-                <h2 class="secondary">Quotes</h2>
-                <div class="quote1">
-                    <h3>"The future belongs to those who learn more skills and combine them in creative ways."</h3>
-                    <div class="writer">~Robert Greene</div>
+        </section>
+    
+        <section id="Education">
+            <h2 class="secondary">Education</h2>
+            <div class="Education">
+                <div class="school">
+                    <div class="progress" data-aos="fade-up">
+                        <img src="./images/Progress.png" alt="" srcset="">
+                    </div>
+                    <div class="Details" data-aos="fade-up">
+                        <h3>Government High Secondary School,Oon Bujurg,Khargone(M.P.)</h3>
+                        <h4 class="standard">Class: X</h4>
+                        <h4 class="standard">Grade: 96.6%</h4>
+                    </div>
                 </div>
-                <div class="quote1">
-                    <h3>"When it comes to mastering any skill, time is major ingredient."</h3>
-                    <div class="writer">~Robert Greene</div>
+                <div class="school">
+                    <div class="progress" data-aos="fade-up">
+                        <img src="./images/Progress.png" alt="" srcset="">
+                    </div>
+                    <div class="Details" data-aos="fade-up">
+                        <h3>Subhash Excellence School,Shivaji Nagar,Bhopal(M.P.)</h3>
+                        <h4 class="standard">Class: XII</h4>
+                        <h4 class="standard">Grade: 92.6%</h4>
+                    </div>
                 </div>
-                <div class="quote1">
-                    <h3>"It is possible to fly without motors,but not without knowledge and skills."</h3>
-                    <div class="writer">~Wilbur Wup</div>
-                </div>
-                <div class="quote1">
-                    <h3>"Once you stop learning, you start dying"</h3>
-                    <div class="writer">~Albert Einstein</div>
-                </div>
-                <div class="quote1">
-                    <h3>"The bridge between my opportunities and my abilities are my skills."</h3>
-                    <div class="writer">~J. Tisa</div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section id="Education">
-        <h2 class="secondary">Education</h2>
-        <div class="Education">
-            <div class="school">
-                <div class="progress" data-aos="fade-up">
-                    <img src="./images/Progress.png" alt="" srcset="">
-                </div>
-                <div class="Details" data-aos="fade-up">
-                    <h3>Government High Secondary School,Oon Bujurg,Khargone(M.P.)</h3>
-                    <h4 class="standard">Class: X</h4>
-                    <h4 class="standard">Grade: 96.6%</h4>
+                <div class="school">
+                    <div class="progress" data-aos="fade-up">
+                        <img src="./images/Progress.png" alt="" srcset="">
+                    </div>
+                    <div class="Details" data-aos="fade-up">
+                        <h3>Indian Institute of Technology,Khargapur</h3>
+                        <h4 class="standard">Degree: dual Degree</h4>
+                        <h4 class="standard">Grade: 7.91/10 (untill 3rd semester)</h4>
+                    </div>
                 </div>
             </div>
-            <div class="school">
-                <div class="progress" data-aos="fade-up">
-                    <img src="./images/Progress.png" alt="" srcset="">
+        </section>
+    
+        <section id="Works">
+            <h2 class="secondary">Works</h2>
+            <div class="works">
+                <div class="work" data-aos="fade-up">
+                    <img src="./images/ChilBro.png" alt="" srcset="">
+                    <div class="cover"><a
+                            href="https://vinit-patidar-03.github.io/Spotify_2.O/"
+                            target="_blank">Music Player</a> </div>
                 </div>
-                <div class="Details" data-aos="fade-up">
-                    <h3>Subhash Excellence School,Shivaji Nagar,Bhopal(M.P.)</h3>
-                    <h4 class="standard">Class: XII</h4>
-                    <h4 class="standard">Grade: 92.6%</h4>
+                <div class="work" data-aos="fade-up">
+                    <img src="./images/Alarm.png" alt="">
+                    <div class="cover"><a href="https://vinit-patidar-03.github.io/Alarm_Clock/"
+                            target="_blank">Alarm Clock</a> </div>
                 </div>
-            </div>
-            <div class="school">
-                <div class="progress" data-aos="fade-up">
-                    <img src="./images/Progress.png" alt="" srcset="">
+                <div class="work" data-aos="fade-up">
+                    <img src="./images/SocialMedia.jpg" alt="" srcset="">
+                    <div class="cover"><a href="https://vinit-patidar-03.github.io/Welcome_to_Popular_Websites.github.io/"
+                            target="_blank">SocialMedia</a> </div>
                 </div>
-                <div class="Details" data-aos="fade-up">
-                    <h3>Indian Institute of Technology,Khargapur</h3>
-                    <h4 class="standard">Degree: dual Degree</h4>
-                    <h4 class="standard">Grade: 7.91/10 (utill 3rd semester)</h4>
+                <div class="work" data-aos="fade-up">
+                    <img src="./images/Weather.png" alt="" srcset="">
+                    <div class="cover"><a href="https://vinit-patidar-03.github.io/Weather_2.O/"
+                            target="_blank">Weather App</a> </div>
                 </div>
-            </div>
-        </div>
-    </section>
-
-    <section id="Works">
-        <h2 class="secondary">Works</h2>
-        <div class="works">
-            <div class="work" data-aos="fade-up">
-                <img src="./images/ChilBro.png" alt="" srcset="">
-                <div class="cover"><a
-                        href="https://vinit-patidar-03.github.io/ChillBro_listen_your_favourite_music_now.github.io/"
-                        target="_blank">Music Player</a> </div>
-            </div>
-            <div class="work" data-aos="fade-up">
-                <img src="./images/Alarm.png" alt="">
-                <div class="cover"><a href="https://vinit-patidar-03.github.io/Analog_and_alarm_clock.github.io/"
-                        target="_blank">Alarm Clock</a> </div>
-            </div>
-            <div class="work" data-aos="fade-up">
-                <img src="./images/SocialMedia.jpg" alt="" srcset="">
-                <div class="cover"><a href="https://vinit-patidar-03.github.io/Welcome_to_Popular_Websites.github.io/"
-                        target="_blank">SocialMedia</a> </div>
-            </div>
-            <div class="work" data-aos="fade-up">
-                <img src="./images/Weather.png" alt="" srcset="">
-                <div class="cover"><a href="https://vinit-patidar-03.github.io/Know_Weather_of_your_city.github.io/"
-                        target="_blank">Weather App</a> </div>
-            </div>
-            <div class="work" data-aos="fade-up">
-                <img src="./images/text.png" alt="">
-                <div class="cover"><a href="https://vinit-patidar-03.github.io/Textimo/" target="_blank">Textimo</a>
+                <div class="work" data-aos="fade-up">
+                    <img src="./images/text.png" alt="">
+                    <div class="cover"><a href="https://vinit-patidar-03.github.io/Textimo/" target="_blank">Textimo</a>
+                    </div>
                 </div>
+                <div class="work" data-aos="fade-up">
+                    <img src="./images/Port.png" alt="">
+                    <div class="cover"><a
+                            href="https://vinit-patidar-03.github.io/Welcome_to_Vinit_Patidar_Profile.github.io/"
+                            target="_blank">Portfolio</a> </div>
+                </div>
+    
             </div>
-            <div class="work" data-aos="fade-up">
-                <img src="./images/Port.png" alt="">
-                <div class="cover"><a
-                        href="https://vinit-patidar-03.github.io/Welcome_to_Vinit_Patidar_Profile.github.io/"
-                        target="_blank">Portfolio</a> </div>
-            </div>
-
-        </div>
-    </section>
-
-    <section id="Contact">
-        <h2 class="secondary">Contact</h2>
-        <div class="contact">
-            <div class="info">
-                <h3 class="Name">Vinit Patidar</h3>
-                <h4 class="Name">vinitpatidar780@gmail.com
-                </h4>
-                <h4 class="Name"><i class="fa-solid fa-phone" style="margin: 0px 10px;"></i>9302619540</h4>
-                <!-- <h2 class="secondary">Let's Connect:</h2> -->
-                <div class="connect">
-                    <div><a href="https://www.linkedin.com/in/vinit-patidar-ab4041227/"><i
-                                class="fa-brands fa-linkedin fa-2x" style="color:rgb(255, 255, 255);"></i></a></div>
-                    <div><a href="https://github.com/Vinit-patidar-03"><i class="fa-brands fa-github fa-2x"
-                                style="color:rgb(255, 255, 255)"></i></a></div>
+        </section>
+    
+        <section id="Contact">
+            <h2 class="secondary">Contact</h2>
+            <div class="contact">
+                <div class="info">
+                    <h3 class="Name">Vinit Patidar</h3>
+                    <h4 class="Name">vinitpatidar780@gmail.com
+                    </h4>
+                    <h4 class="Name"><i class="fa-solid fa-phone" style="margin: 0px 10px;"></i>9302619540</h4>
+                    <!-- <h2 class="secondary">Let's Connect:</h2> -->
+                    <div class="connect">
+                        <div><a href="https://www.linkedin.com/in/vinit-patidar-ab4041227/"><i
+                                    class="fa-brands fa-linkedin fa-2x" style="color:rgb(255, 255, 255);"></i></a></div>
+                        <div><a href="https://github.com/Vinit-patidar-03"><i class="fa-brands fa-github fa-2x"
+                                    style="color:rgb(255, 255, 255)"></i></a></div>
+                    </div>
+                </div>
+                <div class="Quote">
+                    <div class="quote1">
+                        <h3>"The most important thing in life is to make connections with others."</h3>
+                        <div class="writer">~Tom Ford</div>
+                    </div>
                 </div>
             </div>
-            <div class="Quote">
-                <div class="quote1">
-                    <h3>"The most important thing in life is to make connections with others."</h3>
-                    <div class="writer">~Tom Ford</div>
-                </div>
-            </div>
-        </div>
-    </section>
+        </section>
+    </main>
 
     <footer>
         copyright &copy; 2023 Made with <i class="fa-solid fa-heart" style="color: #FC2947"></i> by <span
@@ -227,6 +232,16 @@
     <script>
         AOS.init();
     </script>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script>
+        let typed = new Typed('#element', {
+          strings: ['Web Developer.', 'UI/UX designer.','Web Designer.'],
+          typeSpeed: 100,
+          loop:true,
+          loopCount:Infinity,
+          backSpeed:100
+        });
+      </script>
 </body>
 
 </html>
